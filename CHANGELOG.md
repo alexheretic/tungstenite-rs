@@ -1,3 +1,6 @@
+# Unreleased 
+* Optimise read performance particularly for larger than default `read_buffer_size`s.
+
 # 0.28.0
 * Reduce `Error` size 136 -> **32** by boxing internals of `Error::Http`, `Error::WriteBufferFull`,
   `ProtocolError::InvalidHeader`, `TlsError::Native`, `TlsError::Rustls`.
